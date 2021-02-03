@@ -1,0 +1,80 @@
+extends layout
+
+block content
+  
+  // Navigation
+  nav.navbar.navbar-expand-lg.navbar-dark.navbar-custom.fixed-top
+    .container
+      a.navbar-brand(href='/') Gimnasio Internacional
+      button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarResponsive' aria-controls='navbarResponsive' aria-expanded='false' aria-label='Toggle navigation')
+        span.navbar-toggler-icon
+      #navbarResponsive.collapse.navbar-collapse
+        ul.navbar-nav.ml-auto
+          li.nav-item
+            a.nav-link(href='contacto') Contactenos
+  header.masthead.text-center.text-white
+    .masthead-content
+      .container
+        h1.masthead-heading.mb-0 Gimnasio Internacional
+        h2.masthead-subheading.mb-0 Clases de Gimnasia, Taekwondo y Defensa Personal 
+    .bg-circle-1.bg-circle
+    .bg-circle-2.bg-circle
+    .bg-circle-3.bg-circle
+    .bg-circle-4.bg-circle
+    .social-bar
+      a.icon.icon-facebook(href='https://www.facebook.com/Gimnasio-Internacional-de-Gimnasia-1781645175281655' target='_blank')
+      a.icon.icon-instagram(href='https://www.instagram.com/gimnasio_internacional' target='_blank')
+  section
+
+    .container
+      .row.align-items-center
+        .col-lg-6.order-lg-2
+          .p-5
+            img.img-fluid.rounded-circle(src='/images/img/01.jpg' alt='')
+        .col-lg-6.order-lg-1
+          .p-5
+            h2.display-4 Sobre Nosotros
+            p Desde su creacion en Junio de 2009 El Club "Internacional" abre sus puertas para formar deportistas en la Gimnasia Artistica Femenina y Taekwondo con entrenadores de alto nivel, obteniendo grandes resultados a nivel nacional.
+  section
+    .container
+      .row.align-items-center
+        .col-lg-6
+          .p-5
+            img.img-fluid.rounded-circle(src='/images/img/taek.jpg' alt='')
+        .col-lg-6
+          .p-5
+            h3 Horarios Para Gimnasia Artistica
+
+            p   16H00 a 17h30 & 17h45 a 19h15
+            h3 Horarios Para Taekwondo y Defensa Personal     
+            p   18h00 a 19h15 & 19h30 a 20h45
+          
+              
+              
+  section
+    .container
+      .row.align-items-center
+        .col-lg-6.order-lg-2
+          .p-5
+            img.img-fluid.rounded-circle(src='/images/img/03.jpg' alt='')
+        .col-lg-6.order-lg-1
+          .p-5
+            h2.display-4 Contacto
+            p
+              | Telf: (02) 2535630, 0984317869, 0983394559 
+            p   Dirección: Pedro de Alvarado y Vicente Anda Aguirre Lote 1 (San Carlos)
+  
+  
+    h2(align="center") Carta de Autorizacion
+    li(align="center")
+      a(href="/documents/Carta de Autorizacion.pdf" target="_blank") Carta de Autorizacion  
+    br
+    br
+    // Footer
+    footer.py-5.bg-black
+      .container
+      p.m-0.text-center.text-white.small Copyright &copy; Gimnasio Internacional 2021
+    // /.container
+  // Bootstrap core JavaScript
+  script(src='vendor/jquery/jquery.min.js')
+  script(src='vendor/bootstrap/js/bootstrap.bundle.min.js')

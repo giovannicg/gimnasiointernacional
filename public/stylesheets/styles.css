@@ -1,0 +1,29 @@
+#map {
+	height: 400px;
+    width: 100%;  
+}
+h4 {
+    text-align:center;
+    font-family: Catamaran;
+    font-weight: 800;
+    color: #fff;
+    font-size: 3rem;
+}
+
+form {
+    width: 450px;
+    margin: auto;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+}
+
+
+
